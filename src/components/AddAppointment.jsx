@@ -25,7 +25,7 @@ const AddAppointment = ({ addAppointmentList }) => {
     const controlButtons = () => {
         return (
             <button type="submit" className="btn btn-primary">
-                Save
+                Create
             </button>
         );
     };

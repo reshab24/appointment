@@ -31,7 +31,6 @@ function App() {
   }
 
   return (
-    <>
       <Router>
         <Header />
         <Switch>
@@ -40,19 +39,18 @@ function App() {
               <Home appointmentList={appointmentList} />
             </Layout>
           </Route>
-          <Route path='/appointment/:id' exact>
+          <Route path='/appointment/:id'>
             <Layout>
               <Appointments appointmentList={appointmentList} updateAppointmentList={updateAppointment} deleteAppointment={deleteAppointment} />
             </Layout>
           </Route>
-          <Route path='/appointment' exact>
+          <Route path='/appointment'>
             <Layout>
               <Appointments appointmentList={appointmentList} addAppointmentList={addAppointment} />
             </Layout>
           </Route>
         </Switch>
       </Router>
-    </>
   );
 }
 

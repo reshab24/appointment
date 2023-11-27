@@ -43,7 +43,6 @@ const Home = ({ appointmentList }) => {
 
 
   return (
-    <>
       <Calendar
         localizer={localizer}
         views={['month', 'week', 'day']}
@@ -55,7 +54,6 @@ const Home = ({ appointmentList }) => {
         onSelectSlot={handleSlotSelect}
         selectable={true}
       />
-    </>
   );
 };
 
