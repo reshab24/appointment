@@ -6,8 +6,6 @@
 
 Install Dependencies by above command and follow below commands
 
-In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
