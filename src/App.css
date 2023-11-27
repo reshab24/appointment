@@ -1,0 +1,22 @@
+:root{
+  --primary-color:#3174ad;
+}
+
+/* #3174ad; */
+.active-link{
+  color: var(--primary-color) !important;
+  background-color: #000000ab;
+}
+.navbar-brand{
+  font-size: 30px !important;
+  font-weight: 600;
+  color: var(--primary-color) !important;
+}
+
+.side-bar{
+  background-color:  var(--primary-color);
+}
+
+.fs-20{
+  font-size: 20px !important;
+}
